@@ -1,0 +1,29 @@
+# 配置端口
+server:
+  port: 8084
+# 应用名称
+spring:
+  application:
+    name: goods-page
+  thymeleaf: #关闭thymeleaf的缓存
+    cache: false
+  rabbitmq: # 配置RabbitMQ
+    host: 192.168.228.100 # 指定IP地址
+    username: leyou # 指定用户名和密码
+    password: leyou
+    virtual-host: /leyou  # 指定虚拟机
+# 向eureka进行注册
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}.${server.port}
+# 产生静态文件放的位置
+ly:
+  thymeleaf:
+    destPath: D:/html/item

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e932cbc-3393-45a9-a720-0210d33669c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/ly-api-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/java/LyApiGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/java/gateway/config/FilterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/java/gateway/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/java/gateway/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/java/gateway/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/com/java/LyApiGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/com/java/gateway/config/FilterProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/com/java/gateway/config/GlobalCorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/com/java/gateway/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/com/java/gateway/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-center.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/java/auth/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/java/auth/utils/JwtConstans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/java/auth/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/java/auth/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/main/java/com/java/auth/utils/RsaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/src/test/java/com/java/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/java/auth/entity/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/java/auth/utils/JwtConstans.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/java/auth/utils/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/java/auth/utils/ObjectUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/java/auth/utils/RsaUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/test-classes/com/java/TestDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/ly-auth-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/java/com/java/auth/LyAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/java/com/java/auth/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/java/com/java/auth/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/java/com/java/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/java/com/java/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/java/auth/LyAuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/java/auth/client/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/java/auth/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/java/auth/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/java/auth/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-auth-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/java/LyCartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/java/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/java/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/java/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/java/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/java/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/java/com/java/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/LyCartApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/interceptors/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/pojo/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/service/CartService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/service/CartService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/service/CartService$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-cart/target/classes/com/java/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/java/po/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/java/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/java/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/java/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/java/utils/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/java/po/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/java/utils/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/java/utils/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/java/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/java/utils/NumberUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/ly-goods-page.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/LyGodosPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/client/SpecClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/listeners/PageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/java/com/java/service/PageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/src/main/resources/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/LyGodosPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/client/BrandClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/client/CategoryClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/client/SpecClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/controller/PageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/listeners/PageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/com/java/service/PageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-goods-page/target/classes/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/bo/SpuBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/client/BrandApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/client/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/client/GoodsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/client/SpecApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/SpecGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/SpecParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/SpuDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/java/item/pojo/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/META-INF/ly-item-interface.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/bo/SpuBo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/client/BrandApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/client/CategoryApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/client/GoodsApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/client/SpecApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/Sku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/SpecGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/SpecParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/Spu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/SpuDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/java/item/pojo/Stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/ly-item-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/LyItemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/controller/SpecController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/SkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/SpecGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/SpecParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/SpuDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/SpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/mapper/StockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/java/item/service/SpecService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/META-INF/ly-item-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/LyItemApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/controller/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/controller/SpecController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/SkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/SpecGroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/SpecParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/SpuDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/SpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/mapper/StockMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/java/item/service/SpecService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/LyOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/config/IdWorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/config/IdWorkerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/config/PayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/config/PayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/order/service/api/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/utils/PayHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/java/utils/PayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/LyOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/config/IdWorkerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/config/IdWorkerProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/config/PayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/config/PayProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/mapper/OrderStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/pojo/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/pojo/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/order/service/api/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/utils/PayHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/com/java/utils/PayState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-order/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-registry/src/main/java/com/java/LyRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-registry/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-registry/target/classes/com/java/LyRegistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/LySearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/client/SpecClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/listeners/GoodsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/service/IndexService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/java/utils/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/test/java/com/java/IndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/META-INF/ly-search.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/LySearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/client/BrandClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/client/CategoryClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/client/SpecClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/controller/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/listeners/GoodsListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/service/IndexService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/service/IndexService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/service/IndexService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/service/SearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/classes/com/java/utils/SearchRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/target/test-classes/com/java/IndexTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/java/LyUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/java/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/java/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/java/upload/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/java/upload/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/src/test/java/com/java/FdfsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/META-INF/ly-upload.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/java/LyUploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/java/config/FastClientImporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/java/config/GlobalCorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/java/upload/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/java/upload/service/UploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-upload/target/test-classes/com/java/FdfsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-interface/src/main/java/com/java/user/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-interface/target/classes/com/java/user/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/java/LyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/java/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/java/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/java/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/java/user/utils/CodecUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/src/test/java/com/java/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/java/LyUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/java/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/java/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/java/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/java/user/utils/CodecUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/ly-user-service/target/test-classes/com/java/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leyou" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IDEA\leyou\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VgQVC6II7mSgcVpgY1ksZIbkmG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java.config" />
+      <recent name="com.java.gateway.config" />
+      <recent name="com.java.user.utils" />
+      <recent name="com.java.user.pojo" />
+      <recent name="com.java.listeners" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\leyou\ly-order\src\main\resources" />
+      <recent name="D:\IDEA\leyou\ly-order\src\main\java\com\java\utils" />
+      <recent name="D:\IDEA\leyou\ly-order\src\main\java\com\java\order" />
+      <recent name="D:\IDEA\leyou\ly-order\src\main\java\com\java\config" />
+      <recent name="D:\IDEA\leyou\ly-auth-center\ly-auth-common\src\main\java\com\java\auth\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LyOrderService">
+    <configuration name="TestDemo.jiemi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java" />
+      <option name="MAIN_CLASS_NAME" value="com.java.TestDemo" />
+      <option name="METHOD_NAME" value="jiemi" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyApiGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ly-api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyApiGateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ly-auth-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.auth.LyAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyCartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyGodosPage" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-goods-page" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyGodosPage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ly-item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyItemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyOrderService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyOrderService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyRegistry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ly-registry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyRegistry" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LySearchService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LySearchService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyUplodaService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyUploadService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyUserService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.LyUserService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestDemo.jiemi" />
+      <item itemvalue="Spring Boot.LyUplodaService" />
+      <item itemvalue="Spring Boot.LySearchService" />
+      <item itemvalue="Spring Boot.LyUserService" />
+      <item itemvalue="Spring Boot.LyGodosPage" />
+      <item itemvalue="Spring Boot.LyCartApplication" />
+      <item itemvalue="Spring Boot.LyOrderService" />
+      <item itemvalue="Spring Boot.LyRegistry" />
+      <item itemvalue="Spring Boot.LyApiGateway" />
+      <item itemvalue="Spring Boot.LyAuthApplication" />
+      <item itemvalue="Spring Boot.LyItemApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LyApiGateway" />
+        <item itemvalue="Spring Boot.LyItemApplication" />
+        <item itemvalue="Spring Boot.LyRegistry" />
+        <item itemvalue="Spring Boot.LyAuthApplication" />
+        <item itemvalue="JUnit.TestDemo.jiemi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.2" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e932cbc-3393-45a9-a720-0210d33669c9" name="Default Changelist" comment="" />
+      <created>1577672279563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577672279563</updated>
+      <workItem from="1577672282281" duration="5099000" />
+      <workItem from="1577689162127" duration="407000" />
+      <workItem from="1577690073990" duration="6494000" />
+      <workItem from="1577755394163" duration="1525000" />
+      <workItem from="1577761749667" duration="2696000" />
+      <workItem from="1577765706741" duration="3117000" />
+      <workItem from="1577780586444" duration="11986000" />
+      <workItem from="1577931383702" duration="17243000" />
+      <workItem from="1578021226954" duration="10616000" />
+      <workItem from="1578130330513" duration="3461000" />
+      <workItem from="1578138755133" duration="4486000" />
+      <workItem from="1578150498329" duration="616000" />
+      <workItem from="1578151547900" duration="491000" />
+      <workItem from="1578204245032" duration="18818000" />
+      <workItem from="1578273395989" duration="3684000" />
+      <workItem from="1578362825949" duration="3623000" />
+      <workItem from="1578387487351" duration="15424000" />
+      <workItem from="1578446214736" duration="14913000" />
+      <workItem from="1578532893866" duration="2194000" />
+      <workItem from="1578559457758" duration="8133000" />
+      <workItem from="1578619710819" duration="1146000" />
+      <workItem from="1578623754528" duration="2003000" />
+      <workItem from="1578635816945" duration="607000" />
+      <workItem from="1578644554426" duration="6683000" />
+      <workItem from="1578723126859" duration="1592000" />
+      <workItem from="1578724828385" duration="3330000" />
+      <workItem from="1578728178425" duration="12954000" />
+      <workItem from="1578808580275" duration="17512000" />
+      <workItem from="1578879288713" duration="768000" />
+      <workItem from="1578880231797" duration="105000" />
+      <workItem from="1578881047110" duration="234000" />
+      <workItem from="1578882889422" duration="16087000" />
+      <workItem from="1578966668293" duration="8369000" />
+      <workItem from="1579053545109" duration="68000" />
+      <workItem from="1579055206525" duration="2514000" />
+      <workItem from="1579244877056" duration="1570000" />
+      <workItem from="1579321433370" duration="2793000" />
+      <workItem from="1579324871890" duration="778000" />
+      <workItem from="1579326598880" duration="1234000" />
+      <workItem from="1579328766384" duration="7674000" />
+      <workItem from="1579588080781" duration="8815000" />
+      <workItem from="1579679753680" duration="7724000" />
+      <workItem from="1580016876525" duration="7576000" />
+      <workItem from="1580024907331" duration="4349000" />
+      <workItem from="1580972197885" duration="1197000" />
+      <workItem from="1581216835590" duration="6536000" />
+      <workItem from="1581591528222" duration="687000" />
+      <workItem from="1581658782538" duration="1857000" />
+      <workItem from="1582001693212" duration="7311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1097" y="153" key="#Project_Structure" timestamp="1581230650653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1097" y="153" key="#Project_Structure/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579245052754" />
+    <state x="1097" y="153" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1581230650653" />
+    <state x="345" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578888224086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="345" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578888224086" />
+    <state x="1143" y="292" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1577781029703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1143" y="292" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1920.1040@0.0.1920.1040" timestamp="1577781029703" />
+    <state x="1426" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1579690940173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1426" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579324143481" />
+    <state x="1426" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579690940173" />
+    <state x="1280" y="416" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577959215475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1280" y="416" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577959215475" />
+    <state x="1049" y="78" key="CommitChangelistDialog2" timestamp="1582010765258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1049" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582010765258" />
+    <state x="835" y="256" key="FileChooserDialogImpl" timestamp="1582009996182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582009996182" />
+    <state width="1478" height="388" key="GridCell.Tab.0.bottom" timestamp="1582006857983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167458" />
+    <state width="1478" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857983" />
+    <state width="1478" height="388" key="GridCell.Tab.0.center" timestamp="1582006857983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167458" />
+    <state width="1478" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857983" />
+    <state width="1478" height="388" key="GridCell.Tab.0.left" timestamp="1582006857983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167458" />
+    <state width="1478" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857983" />
+    <state width="1478" height="388" key="GridCell.Tab.0.right" timestamp="1582006857983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167458" />
+    <state width="1478" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857983" />
+    <state width="1478" height="388" key="GridCell.Tab.1.bottom" timestamp="1582006857984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="388" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857984" />
+    <state width="1478" height="388" key="GridCell.Tab.1.center" timestamp="1582006857983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="388" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857983" />
+    <state width="1478" height="388" key="GridCell.Tab.1.left" timestamp="1582006857983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="388" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857983" />
+    <state width="1478" height="388" key="GridCell.Tab.1.right" timestamp="1582006857984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="388" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582006857984" />
+    <state width="1478" height="245" key="GridCell.Tab.2.bottom" timestamp="1580038452608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="245" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580038452608" />
+    <state width="1478" height="245" key="GridCell.Tab.2.center" timestamp="1580038452608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="245" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580038452608" />
+    <state width="1478" height="245" key="GridCell.Tab.2.left" timestamp="1580038452608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="245" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580038452608" />
+    <state width="1478" height="245" key="GridCell.Tab.2.right" timestamp="1580038452608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1478" height="222" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1579325167234" />
+    <state width="1478" height="245" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580038452608" />
+    <state x="851" y="64" width="1040" height="856" key="SettingsEditor" timestamp="1582009954715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="851" y="64" width="1040" height="856" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582009954715" />
+    <state x="1040" y="184" key="Vcs.Push.Dialog.v2" timestamp="1582010333309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1040" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582010333309" />
+    <state x="1316" y="296" key="chooseDestDirectoryDialog" timestamp="1578646812300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1316" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578646812300" />
+    <state x="822" y="176" width="786" height="590" key="find.popup" timestamp="1579680903409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="822" y="176" width="786" height="590" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579680903409" />
+    <state x="535" y="214" width="1251" height="607" key="new project wizard" timestamp="1580018331264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="535" y="214" width="1251" height="607" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580018331264" />
+    <state x="1356" y="223" key="run.anything.popup" timestamp="1578920767342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1356" y="223" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578920767342" />
+    <state x="985" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1580020141166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="985" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580020141166" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leyou$IndexTest_init.ic" NAME="IndexTest.init Coverage Results" MODIFIED="1578397614832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.java.*</FILTER>
+    </SUITE>
+  </component>
+</project>
